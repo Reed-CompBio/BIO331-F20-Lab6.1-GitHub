@@ -86,9 +86,13 @@ You then need to **commit** the file. Remember that this is a Git command that s
 
 ![github-desktop2](figs/github-desktop2.png)
 
+<<<<<<< HEAD
 Once you've committed the file, you need to push those commits to GitHub.
 
 a) If you have a _Push origin_ button, click it to put these changes in the GitHub repository.
+=======
+Once you've committed the file, you need to push those commits to GitHub. Click the _Push origin_ button to put these changes in the GitHub repository.
+>>>>>>> 37055e341681b3e89c76f528c927b06b6bb52225
 
 ![github-desktop3](figs/github-desktop3.png)
 
@@ -96,4 +100,8 @@ b) If you cannot push your commits, that means someone else has made modificatio
 
 Great! The GitHub Repository now has your new file. Go to the GitHub website to confirm.
 
+<<<<<<< HEAD
 ### 5. Edit
+=======
+test
+>>>>>>> 37055e341681b3e89c76f528c927b06b6bb52225
