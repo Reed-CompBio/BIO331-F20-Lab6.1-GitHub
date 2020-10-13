@@ -25,5 +25,3 @@ git commit -m "informational message about the changes"
 ```
 
 This tags all files that have been added with a version number, and you can always revisit these versions.
-
-## Installing Git
