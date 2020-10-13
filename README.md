@@ -92,7 +92,7 @@ a) If you have a _Push origin_ button, click it to put these changes in the GitH
 
 ![github-desktop3](figs/github-desktop3.png)
 
-b) If you have a push
+b) If you cannot push your commits, that means someone else has made modifications to the repository that you do not have yet.  You may have to _Fetch origin_ before you are able to push.  
 
 Great! The GitHub Repository now has your new file. Go to the GitHub website to confirm.
 
