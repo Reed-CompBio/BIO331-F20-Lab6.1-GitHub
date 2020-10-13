@@ -12,7 +12,7 @@ Once installed, you will be able to create your own _repository_ (directory), ad
 
 ![git2](figs/git2.jpg)
 
-Git is a **command line tool**, so you will need to open a Terminal (Spyder has a terminal built in) and navigate to your repository.  You will tag versions of a file (for example, `file.py` above) by first adding the changed file:
+Git is a **command line tool**, but we will access it using GitHub Desktop.  You will tag versions of a file (for example, `file.py` above) by first adding the changed file:
 
 ```
 git add file.py
@@ -40,13 +40,54 @@ Now, suppose you'd like to contribute your changes to the repository.  (We'll be
 
 ![github3](figs/github3.jpg)
 
+Alright great. But what if another student wants to contribute their changes?  They will be able to add & commit their files on their computers.  **But**, when they _push_ their commits to the repository, it will be rejected by GitHub.  
 
 ![github4](figs/github4.jpg)
+
+This is because other edits have been made since the student last checked the repo, and they must first _fetch_ your edits (and merge any conflicts - we'll see that a bit later).  Once they do that, then students can push their commits to the repository.  
+
 ![github5](figs/github5.jpg)
+
+Once the class has finished the project, I will be able to pull the changes in the repo onto my local computer. All done!  For another overview of using GitHub (including forking and branching), see this [quick tutorial](https://guides.github.com/activities/hello-world/) - we won't need this though.
+
 ![github6](figs/github6.jpg)
-![github7](figs/github7.jpg)
 
+## GitHub Desktop
 
+We will use [GitHub Desktop](https://desktop.github.com/) to manage repositories.  If you are already using Git and GitHub, then keep doing what you're doing and skip to Step 3.  For the rest of us, read on...
 
+### 1. Make a GitHub Account
 
-For an overview of using GitHub from the web platform, see this [quick tutorial](https://guides.github.com/activities/hello-world/).  Here, we will talk about the high-level idea and we will use [GitHub Desktop](https://desktop.github.com/) to manage repositories.  If you are already using Git and GitHub, then keep doing what you're doing!
+Make a GitHub account [here](https://github.com/join?ref_cta=Sign+up). These accounts are free but you cannot make private repositories.  If you plan to make repositories outside of this class, I'd encourage you to apply for a [student account](https://education.github.com/discount_requests/student_application) (which gets you private repositories and a bunch of other stuff).
+
+Send Anna your GitHub username through the chat when this is done.
+
+### 2. Download GitHub desktop
+
+[GitHub Desktop](https://desktop.github.com/) will install both git and a desktop application for managing GitHub repositories.  There are options for both [Macs](https://central.github.com/deployments/desktop/desktop/latest/darwin) and [Windows](https://central.github.com/deployments/desktop/desktop/latest/win32].
+
+You will be asked to log into GitHub in order to connect the Desktop App to your account.
+
+### 3. Clone _this_ Lab onto your machine
+
+Click "Clone Repository" and add `Reed-CompBio/BIO331-F20-Lab6.1-GitHub` to the URL.  You will also specify the _Local Path_ - the location that this repository will be cloned on YOUR computer.  
+
+![github-desktop0](figs/github-desktop0.png)
+
+You have cloned this repository!  The buttons on the right hand panel allow you to open the files in an editor (e.g. Atom), show the location of these files on your local machine (e.g. to open them in Spyder), or open the GitHub webpage in your browser.
+
+![github-desktop1](figs/github-desktop1.png)
+
+### 4. Make a copy of `copy-me.txt`, commit it, and push it to GitHub
+
+Save a copy of `copy-me.txt` with your name (e.g. `Anna.txt`).  You can modify the contents of the file.
+
+You then need to **commit** the file. Remember that this is a Git command that saves the version on your local computer.  Checking the files in the left-hand pane is like typing `git add README.md` in a terminal.  Typing a message and hitting _commit to main_ is like typing `git commit -m "message here"`.
+
+![github-desktop2](figs/github-desktop2.png)
+
+Once you've committed the file, you need to push those commits to GitHub. Click the _Push origin_ button to put these changes in the GitHub repository. 
+
+![github-desktop3](figs/github-desktop3.png)
+
+Great! The GitHub Repository now has your new file. Go to the GitHub website to confirm.
